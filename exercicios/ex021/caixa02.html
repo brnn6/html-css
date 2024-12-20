@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color:white ;
+            padding: 10px;
+            margin: 10px;   
+        }
+        nav {
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.445);
+        }
+        nav > a {
+            background-color: rgb(71, 71, 71) ;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 30px;
+            box-shadow: 10px 7px 15px 0px rgba(0, 0, 0, 0.432);
+        }
+        article {
+            background-color: rgb(156, 156, 156);
+            padding: 5px;
+            box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.13);
+            border-radius: 0px 20px 0px 20px;
+        }
+        article > aside {
+            background-color: rgb(99, 99, 99);   
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+            /* background-color: aliceblue; BOLA FLUTUANDO 
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }*/
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Meu site</h1>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+            <a href="#"> Link </a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política e tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui reprehenderit non tenetur vero inventore pariatur quae necessitatibus quisquam quos! Sit    deleniti minus dignissimos non quaerat saepe veniam illo ut cupiditate.</p> 
+                <aside>
+                    <p>artigo escrito por josé</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo brnn</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
