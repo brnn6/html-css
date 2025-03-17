@@ -19,20 +19,36 @@
         }
 
         th{
-            background-color:lightgrey;
+            color: white;
+            background-color:grey;
         }
         thead > tr > td {
-            background-color: lightgray;
+            background-color:gray;
         }
 
+
         .mediaexata {
-            background-color: lightgrey;
+            background-color: grey;
         }
 
         .mediahumana {
-            background-color: lightgray;
+            background-color: grey;
         }
 
+        .exatas {
+            color: black;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .humanas {
+            color: black;
+            background-color: white;
+        }
+
+        .notas {
+            color: white;
+        }
+        
 
 
     </style>
@@ -44,15 +60,15 @@
             <Th rowspan="2" scope="colgroup">Área</Th>
             <th rowspan="2">Disciplina</th>
             <th colspan="2">Notas</th>
-            <th>Média</th>
+            <th rowspan="2">Média</th>
             <tr class="notas">
                 <td>Nota1</td>
                 <td>Nota2</td>
-                <td>00</td>
+                
             </tr>
         </thead>
         <tr>
-            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <th rowspan="4" scope="rowgroup" class="exatas">Exatas</th>
             <td>Matemática</td>
             <td>00</td>
             <td>00</td>
@@ -81,7 +97,7 @@
             <td>00</td>
         </tr>
         <tr>
-            <th rowspan="2" scope="rowgroup">Humanas</th>
+            <th rowspan="2" scope="rowgroup" class="humanas">Humanas</th>
             <td>História</td>
             <td>00</td>
             <td>00</td>
